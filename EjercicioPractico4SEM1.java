@@ -3,19 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejerciciopractico4sem1;
+package ejerciciopractico4se
+   public  class  Ejercicio4_sem1 {
+    public  static  void  main ( String [] args ) {
 
-/**
- *
- * @author ITCA
- */
-public class EjercicioPractico4SEM1 {
+   doble  AFPT , AFPE , pagoAFP, pagoT, pagoF, sueldo;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+
+        salario =  500 ;
+        AFPT =  0,06 ;
+        AFPE  =  0,065 ;
+        pagoAFP = sueldo *  AFPT ;
+
+            pagoT = sueldo *  AFPE ; pagoF = pagoAFP + pagoT;
+
+        sistema _ fuera _ println( " Usted esta pagando a AFP la cantidad de: "  + pagoF);
     }
-    
 }
+    
+
